@@ -53,8 +53,5 @@ b=int(input("Enter the ending point:"))
 print(random.randint(a,b))
 
 
-# In[ ]:
-
-
 
 
