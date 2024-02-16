@@ -1,8 +1,8 @@
-#Python program to print "Hello Python"
+# Q1: Python program to print "Hello Python"
 print("Hello World")
 
 
-#Python program to do arithmetical operations addition and division.
+# Q2: Python program to do arithmetical operations addition and division.
 a = int(input("Enter the first number:"))
 b = int(input("Enter the second number:"))
 add = a+b
@@ -11,14 +11,14 @@ print(add)
 print(div)
 
 
-#Python program to find the area of a triangle
+# Q3: Python program to find the area of a triangle
 base = int(input("Enter the value of base of triangle:"))
 height = int(input("Enter the value of height of triangle:"))
 area = 0.5*(base*height)
 print("The Area of triangle=",area)
 
 
-#Python program to swap two variables
+# Q4: Python program to swap two variables
 first_var=input("Enter any value:")
 second_var=input("Enter any value to swap with first:")
 temp=first_var
@@ -28,7 +28,7 @@ print("The value of first variable after swapping:",first_var)
 print("The value of second variable after swapping:",second_var)
 
 
-#Python program to generate a random number
+# Q5: Python program to generate a random number
 import random
 a=int(input("Enter the starting point:"))
 b=int(input("Enter the ending point:"))
