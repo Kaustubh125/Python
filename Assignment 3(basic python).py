@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 # Q1. Write a Python Program to Check if a Number is Positive, Negative or Zero
 
 num=int(input("Enter the number:"))
@@ -13,9 +7,6 @@ elif num == 0:
     print("The number is Zero.")
 else:
     print("The number ",num," is Negative Number.")
-
-
-# In[6]:
 
 
 # Q2. Write a Python Program to Check if a Number is Odd or Even
@@ -28,9 +19,6 @@ else:
     print("The number",num,"is ODD.")
 
 
-# In[10]:
-
-
 # Q3. Write a Python Program to Check Leap Year
 year=int(input("Enter the Year:"))
 if (year % 400 == 0) and (year % 100 == 0):
@@ -39,9 +27,6 @@ elif (year % 4 == 0) and (year % 100 != 0):
     print(year,"is leap year")
 else:
     print(year,"is not is leap Year")
-
-
-# In[1]:
 
 
 # Q4. Write a Python Program to Check Prime Number.
@@ -61,9 +46,6 @@ else:
     print(num,"is not a prime number")
 
 
-# In[9]:
-
-
 # Q5. Write a Python Program to Print all Prime Numbers in an Interval of 1-10000
 
 start = 1 
@@ -78,19 +60,3 @@ for num in range(1,10001):
                 break
         else:
             print(num)
-
-        
-            
-
-
-# In[4]:
-
-
-print(1,10)
-
-
-# In[ ]:
-
-
-
-
